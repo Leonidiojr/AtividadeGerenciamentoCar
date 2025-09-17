@@ -7,7 +7,7 @@ package application;
 public class Constants {    
     
     //Constantes para conexao com banco de dados
-    public static final String HOST = "localhost"; // ou o IP do servidor de banco de dados
+    public static final String HOST = "10.21.233.56"; // ou o IP do servidor de banco de dados
     public static final String PORT = "5432"; // porta padrão do PostgreSQL
     public static final String DB_NAME = "carsys"; // nome do banco de dados
     public static final String URL = "jdbc:postgresql://" + HOST + ":" + PORT + "/";    
